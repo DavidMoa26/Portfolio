@@ -2,7 +2,7 @@
 import React from 'react'
 import './Projects.css'
 import ecommerce from '../../images/ecommerce.png'
-import todoList from '../../images/todilist.jpg'
+import search from '../../images/search.jpeg'
 import chart from '../../images/chart.jpg'
 import { Button } from 'react-bootstrap';
 import { AiFillGithub } from "react-icons/ai";
@@ -18,22 +18,22 @@ const Projects = () => {
                         <img src={ecommerce} />
                         <p>Building e-commerce application with new technologies including React.js</p>
                         <p><span>HTML, CSS, React, Bootstrap</span></p>
-                        <a href="https://www.yahoo.com"><Button variant="warning" style={{ fontWeight: 'bold' }}>To the website >></Button></a>
-                        <a href="https://www.ynet.co.il"><Button variant="dark" style={{ fontWeight: 'bold' }}><AiFillGithub size={20} color='white' />To Source Code >></Button></a>
+                        <a href="https://peaceful-torrone-fbeed6.netlify.app/"><Button variant="warning" style={{ fontWeight: 'bold' }}>To the website >></Button></a>
+                        <a href="https://github.com/DavidMoa26/Cocktails-Shop"><Button variant="dark" style={{ fontWeight: 'bold' }}><AiFillGithub size={20} color='white' />To Source Code >></Button></a>
                     </div>
                     <div className='card'>
-                        <img src={todoList} />
-                        <p>Building responsive todo-list application with technologies including React.js</p>
+                        <img src={search} />
+                        <p>Building application that show cards with smart search-box </p>
                         <p><span>HTML, CSS, React</span></p>
-                        <a href="https://www.ynet.co.il"><Button variant="warning" style={{ fontWeight: 'bold' }}>To the website >></Button></a>
-                        <a href="https://www.ynet.co.il"><Button variant="dark" style={{ fontWeight: 'bold' }}><AiFillGithub size={20} color='white' />To Source Code >></Button></a>
+                        <a href="https://graceful-fox-ec9ecb.netlify.app/"><Button variant="warning" style={{ fontWeight: 'bold' }}>To the website >></Button></a>
+                        <a href="https://github.com/DavidMoa26/Cards-Searching"><Button variant="dark" style={{ fontWeight: 'bold' }}><AiFillGithub size={20} color='white' />To Source Code >></Button></a>
                     </div>
                     <div className='card'>
                         <img src={chart} />
                         <p>Building application that shows the monthly expenses in a graphs</p>
                         <p><span>HTML, CSS, React</span></p>
-                        <a href="https://www.google.com"><Button variant="warning" style={{ fontWeight: 'bold' }}>To the website >></Button></a>
-                        <a href="https://www.ynet.co.il"><Button variant="dark" style={{ fontWeight: 'bold' }}><AiFillGithub size={20} color='white' />To Source Code >></Button></a>
+                        <a href="https://spontaneous-kheer-a385b0.netlify.app/"><Button variant="warning" style={{ fontWeight: 'bold' }}>To the website >></Button></a>
+                        <a href="https://github.com/DavidMoa26/Expense-App"><Button variant="dark" style={{ fontWeight: 'bold' }}><AiFillGithub size={20} color='white' />To Source Code >></Button></a>
                     </div>
                 </div>
             </div>
