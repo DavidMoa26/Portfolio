@@ -1,0 +1,33 @@
+ article {
+    background: linear-gradient(
+      to right, 
+      hsl(98 100% 62%), 
+      hsl(204 100% 59%)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .name {
+    font-size: 8vmin;
+    line-height: 1.1;
+  }
+  
+  .job {
+    height: 100vh;
+    background: linear-gradient(
+        to right, 
+        rgb(0, 0, 0), 
+        rgb(4, 29, 45)
+      );
+    min-block-size: 100%;
+    min-inline-size: 100%;
+    box-sizing: border-box;
+    display: grid;
+    place-content: center;
+    font-family: system-ui;
+    font-size: min(200%, 5vmin);
+  }
+
